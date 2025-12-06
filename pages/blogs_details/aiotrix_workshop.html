@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com -->
+<!-- Last Published: Wed Jan 08 2025 22:35:12 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="ovo-feathers.webflow.io" data-wf-page="677e8b595194a56effed6499"
+    data-wf-site="677e8b595194a56effed6497" lang="en" data-wf-locale="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>KVGCEOSC - AIoTrix Workshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../img/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512...hash..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link href="https://www.kvgceosc.org/" rel="canoni">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="../../style.css" rel="stylesheet" type="text/css" />
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("mobile-menu");
+            menu.classList.toggle("hidden");
+        }
+    </script>
+
+    <style>
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+            
+            .nav-menu.active {
+                display: block;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #1a1a1a;
+                padding: 1rem;
+                z-index: 50;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-link {
+                display: block;
+                padding: 0.5rem 0;
+            }
+
+            .menu-button {
+                display: block;
+            }
+
+            .blog-card {
+                flex-direction: column;
+            }
+
+            .blog-image {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+
+            .blog-content {
+                width: 100%;
+            }
+        }
+
+        .menu-button {
+            display: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .menu-button-icon {
+            width: 24px;
+            height: 2px;
+            background-color: white;
+            position: relative;
+        }
+
+        .menu-button-icon::before,
+        .menu-button-icon::after {
+            content: '';
+            position: absolute;
+            width: 24px;
+            height: 2px;
+            background-color: white;
+            transition: all 0.3s ease;
+        }
+
+        .menu-button-icon::before {
+            top: -6px;
+        }
+
+        .menu-button-icon::after {
+            bottom: -6px;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-navbar">
+        <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+            role="banner" class="navbar w-nav">
+            <div class="container navbar-container">
+                <div class="navbar-holder">
+                    <div class="navbar-container"><a href="/" aria-current="page" class="brand w-nav-brand w--current">
+                            <a1>&lt;KVGCEOSC&#47;&gt;</a1>
+                            <nav role="navigation" class="nav-menu w-nav-menu">
+                                <div class="nav-menu-link-holder">
+                                    <div class="nav-menu-link-container">
+                                        <div class="nav-links">
+                                            <a href="../../index.html" class="nav-link w-nav-link">Home</a>
+                                            <a href="../team.html" class="nav-link w-nav-link">Teams</a>
+                                            <a href="../blog.html" class="nav-link w-nav-link">Blog</a>
+                                            <a href="../event.html" class="nav-link w-nav-link">Event</a>
+                                            <a href="../about.html" class="nav-link w-nav-link">About</a>
+                                        </div>
+                                    </div>
+                            </nav>
+                            <div class="menu-button w-nav-button">
+                                <div class="w-icon-nav-menu"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section hero-section">
+        <div class="container" style="padding: 0;">
+            <div class="hero-section-holder" style="padding-top: 0;">
+                <div id="Solutions" class="section">
+                    <div class="four-features-wrapper">
+                        <div class="container" style="margin-top: auto;">
+                            <div class="light-section-holder">
+                                <div class="light"></div>
+                                <div class="light-line"></div>
+                                <div class="light-content">
+                                    <div class="center-text">
+                                        <div class="title-holder">
+                                            <div class="title-container">
+                                                <!-- <h2 class="title">KVGCEOSC Blog</h2> -->
+                                            </div>
+                                            <!-- <div class="paragraph-holder">
+                                                <p>A team of tech enthusiasts united by curiosity, collaboration, and
+                                                    the spirit of open-source innovation.</p>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="about-section-wrapper" style="margin-top: -350px;">
+                <div class="about-content">
+                    <div class="mission-vision-container" style="margin-top: 100px; width: 650px; margin-left: auto; margin-right: auto;">
+                        <div class="mission-box">
+                            <img src="../../img/Blogs/karthik1.jpg" alt="Workshop opening session">
+                            <br><br>
+                            <h4 class="box-title">AIoTrix Workshop - Exploring Real-Time AI & The Future of AI</h4>
+                            <p class="box-description">
+                                On 29th November 2024, Aiotrix hosted an exciting and insightful workshop focused on Artificial Intelligence (AI) and its real-time applications. The event, held at the College Auditorium, attracted a diverse group of attendees, including students, tech enthusiasts, professionals, and faculty members. The workshop featured prominent speakers, such as Kiran Shetty, the Chief Operating Officer at Aiotrix, and Karthin Suvarna, the Product Manager at Aiotrix. The event was also graced by CEO Dr. Ujwal U J, Principal Dr. Suresh V, Prof. Venkatesh U C (Coordinator), and Prof. Balapradeep N, who were present to show support for the session and interact with attendees.
+                            </p>
+                            <br><br>
+                            <h4 class="box-title">Key Speakers and Presentations</h4>  
+                            <h4 class="box-title">Kiran Shetty - Chief Operating Officer (COO) at Aiotrix</h4>
+                            <img src="../../img/Blogs/kiran1.jpg" alt="Kiran Shetty presenting">
+                            <br><br>
+                            <p class="box-description">
+                                The workshop was inaugurated by Kiran Shetty, the Chief Operating Officer of Aiotrix, who delivered an insightful and comprehensive session on "Real-Time AI Bridge: Easily Accessible LLMs". Kiran's talk focused on how Large Language Models (LLMs), such as GPT models, are revolutionizing the way businesses and developers integrate AI into their workflows. He discussed how these models enable businesses to bridge the gap between traditional computational methods and cutting-edge AI, making advanced technologies more accessible and easier to implement in everyday applications. Kiran elaborated on how industries are leveraging these models for natural language processing (NLP) tasks, such as chatbots, customer service automation, content generation, and more. He also provided real-world use cases and examples, illustrating the power of LLMs in enabling businesses to scale their operations effectively while providing personalized customer experiences. His session was particularly beneficial for developers and businesses looking to integrate AI into their products, offering them practical guidance on utilizing LLMs and understanding their potential.
+                            </p>
+                            <br><br>
+                            <h4 class="box-title">Karthin Suvarna - Product Manager at Aiotrix</h4>
+                            <img src="../../img/Blogs/karthik.jpg" alt="Karthin Suvarna speaking">
+                            <br><br>
+                            <p class="box-description">
+                                The second session of the event was led by Karthin Suvarna, the Product Manager at Aiotrix, who gave an inspirational talk titled "AI – Everything You Need to Start with AI". Karthin's talk aimed to motivate aspiring AI professionals and those looking to transition into AI, providing them with a comprehensive roadmap for getting started. He introduced the foundational concepts of AI, such as machine learning, neural networks, and data preprocessing, and explained the practical steps for learning and applying these concepts. Karthin's session was filled with advice on how to begin learning AI, including the importance of understanding programming languages like Python, and familiarizing oneself with popular AI frameworks such as TensorFlow, PyTorch, and scikit-learn. He also discussed the key skills required to succeed in the AI field, including problem-solving abilities, data analysis skills, and the capacity to continuously learn and adapt.
+                            </p>
+                            <br><br>
+                            <h4 class="box-title">Interactive Sessions and Real-Time AI Applications</h4>
+                            <p class="box-description">
+                                The workshop featured several interactive sessions, where participants were encouraged to engage with the content and ask questions. Attendees had the opportunity to discuss various real-time AI applications, including AI in healthcare, automotive, finance, and customer service. These discussions were both educational and thought-provoking, allowing students to better understand the diverse areas in which AI is already having a major impact. A highlight of the event was the live demonstration of real-time AI tools, where the Aiotrix team showcased how LLMs can generate natural language responses to specific queries and how businesses are using these models to automate processes and improve decision-making.
+                            </p>
+                            <br><br>
+                            <h4 class="box-title">Event Impact and Success</h4>
+                            <p class="box-description">
+                                The Aiotrix workshop was an overwhelming success, leaving attendees not only with enhanced knowledge of AI but also with a renewed sense of excitement about the potential of AI to change the world. The expert speakers, engaging sessions, and hands-on experience helped participants understand the accessibility and power of AI tools, and how they can start integrating AI into their own projects or careers. The event also underscored the importance of AI education and community building in helping individuals get started in AI, with many attendees expressing interest in participating in future workshops hosted by Aiotrix.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .section {
+            padding: 20px 0;
+        }
+        
+        .about-section-wrapper {
+            padding: 20px 0;
+        }
+        
+        .about-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .light-section-holder {
+            margin-bottom: 0;
+        }
+        
+        .title-holder {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        
+        .about-description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+        
+        .mission-vision-container {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .mission-box, .vision-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 25px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .box-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+        
+        .box-description {
+            color: #ffffff;
+            line-height: 1.5;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .value-item {
+            padding: 20px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .value-item h5 {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        
+        .value-item p {
+            color: #ffffff;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 768px) {
+            .mission-vision-container {
+                flex-direction: column;
+            }
+            
+            .mission-box, .vision-box {
+                min-width: 100%;
+            }
+            
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+<div class="light-section-holder">
+    <div class="light" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"></div>
+    <div class="light-line" style="width: 200px; height: 3px;"></div>
+   
+</div>
+    <div class="section">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-brand">
+                    <img src="../../img/kvgceosc.png" loading="lazy" alt="KVGCEOSC Logo" class="footer-brand-image" />
+                    <div class="footer-paragraph-holder">
+                        <p>KVGCEOSC - Empowering Students with Open-Source Knowledge. Join our community to learn, contribute, and grow together.</p>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-block">
+                        <div class="title-small">Quick Links</div>
+                        <a href="../../index.html" class="footer-link">Home</a>
+                        <a href="../team.html" class="footer-link">Teams</a>
+                        <a href="../blog.html" class="footer-link">Blog</a>
+                        <a href="../event.html" class="footer-link">Events</a>
+                        <a href="../about.html" class="footer-link">About Us</a>
+                    </div>
+                    <div class="footer-block">
+                        <div class="title-small">Our Clubs</div>
+                        <a href="#" class="footer-link">Mozilla Campus Club</a>
+                        <a href="#" class="footer-link">Developer Students Club</a>
+                        <a href="#" class="footer-link">GitHub Campus Experts</a>
+                        <a href="#" class="footer-link">Open Source Club</a>
+                    </div>
+                    <div class="footer-block">
+                        <div class="title-small">Connect With Us</div>
+                        <a href="https://github.com/kvgceosc" target="_blank" class="footer-link">GitHub</a>
+                        <a href="https://www.linkedin.com/company/kvgceosc/" target="_blank" class="footer-link">LinkedIn</a>
+                        <a href="https://x.com/kvgceosc_6885" target="_blank" class="footer-link">Twitter</a>
+                        <a href="https://www.instagram.com/kvgceosc?igsh=MXQxcTQ4ZTBmNzVqdw==" target="_blank" class="footer-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-divider">
+                <div class="footer-copyright-holder">
+                    <div class="footer-copyright-center">© 2024 KVGCEOSC. All rights reserved.</div>
+                </div>
+                <div class="footer-copyright-holder">
+                    <div class="footer-copyright-center">Made with ❤️ by KVGCEOSC Team</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-blur-bg-holder"><img
+            src="https://cdn.prod.website-files.com/677e8b595194a56effed6497/677e8ff9825f13aef3bca09c_Star%20Field.svg"
+            loading="lazy"
+            style="-webkit-transform:translate3d(0, 280px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 280px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 280px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 280px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+            alt="" class="hero-stars" /></div>
+    </div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=677e8b595194a56effed6497"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.prod.website-files.com/677e8b595194a56effed6497/js/webflow.f169e2bd001e9160f3f054bf40c93fbf.js"
+        type="text/javascript"></script>
+    <script src="../../script.js"></script>
+</body>
+
+</html>
